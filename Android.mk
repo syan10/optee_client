@@ -49,7 +49,7 @@ LOCAL_VENDOR_MODULE := true
 
 # Build the 32-bit and 64-bit versions.
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TARGET_ARCH := arm arm64
+LOCAL_MODULE_TARGET_ARCH := x86 x86_64
 
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/public
 
@@ -84,7 +84,7 @@ LOCAL_VENDOR_MODULE := true
 
 # Build the 32-bit and 64-bit versions.
 LOCAL_MULTILIB := both
-LOCAL_MODULE_TARGET_ARCH := arm arm64
+LOCAL_MODULE_TARGET_ARCH := x86 x86_64
 
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/libckteec/include
 
