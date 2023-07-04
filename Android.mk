@@ -7,8 +7,8 @@ LOCAL_PATH := $(call my-dir)
 CFG_TEE_CLIENT_LOAD_PATH ?= /vendor/lib
 
 # set CFG_TEE_FS_PARENT_PATH before include config.mk
-TEEC_TEST_LOAD_PATH ?= /data/vendor/tee
-CFG_TEE_FS_PARENT_PATH ?= /data/vendor/tee
+TEEC_TEST_LOAD_PATH ?= /persist/tee
+CFG_TEE_FS_PARENT_PATH ?= /persist/tee
 
 ################################################################################
 # Include optee-client common config and flags                                 #
